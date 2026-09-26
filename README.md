@@ -48,11 +48,15 @@ About 12,000 files stays a directory walk plus a header read per file. Cover art
 
 Python 3.11 or newer. Mount the archive disk, then point the tool at the two folders that contain the MP3s (it walks subfolders).
 
+The archive disk is the volume named HD, folder `Music`. On a Mac that is `/Volumes/HD/Music`. The live library is `/Users/AC/Music/Music/Media.localized/Music`.
+
+From the project folder, with the HD disk plugged in:
+
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python -m mp3missing "/Volumes/ArchiveDisk/Music" "$HOME/Music"
+python -m mp3missing "/Volumes/HD/Music" "/Users/AC/Music/Music/Media.localized/Music"
 ```
 
 `mutagen` is pinned in `requirements.txt`. It reads the MPEG header and ID3 text. It does not decode the audio.
@@ -60,7 +64,7 @@ python -m mp3missing "/Volumes/ArchiveDisk/Music" "$HOME/Music"
 Save the list and leave the summary in the terminal:
 
 ```bash
-python -m mp3missing "/Volumes/ArchiveDisk/Music" "$HOME/Music" > missing.txt
+python -m mp3missing "/Volumes/HD/Music" "/Users/AC/Music/Music/Media.localized/Music" > missing.txt
 ```
 
 The summary (counts, the match rule, unreadable files) goes to stderr. The missing list goes to stdout.
@@ -81,12 +85,12 @@ Autechre
 A wider tolerance, if header durations in your libraries drift by more than a second:
 
 ```bash
-python -m mp3missing "/Volumes/ArchiveDisk/Music" "$HOME/Music" --tolerance 2
+python -m mp3missing "/Volumes/HD/Music" "/Users/AC/Music/Music/Media.localized/Music" --tolerance 2
 ```
 
 The command exits 0 when the report was written, including when some files are missing. It exits 2 if a path is missing, is not a folder, or both arguments are the same folder.
 
-Use the folder that actually holds the files. The live library might be `~/Music`, or a media folder inside it, depending on how the library was stored. The archive path is whatever that disk mounts as under `/Volumes`.
+If Terminal says the archive folder does not exist, the disk may be mounted under a different name. Run `ls /Volumes` and use the name Finder shows for that drive, still ending in `/Music`.
 
 ## Tests
 
