@@ -48,23 +48,34 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
 
 
 def main(argv: list[str] | None = None) -> int:
+    try:
+        sys.stderr.reconfigure(line_buffering=True)
+    except (AttributeError, OSError):
+        pass
+
     args = parse_args(argv)
+    print("mp3missing: started", file=sys.stderr, flush=True)
     if args.tolerance < 0:
         print("error: --tolerance must be zero or positive", file=sys.stderr)
         return 2
 
-    try:
-        archive = Path(args.archive).expanduser().resolve()
-        live = Path(args.live).expanduser().resolve()
-    except OSError as exc:
-        print(f"error: {exc}", file=sys.stderr)
-        return 2
+    # absolute() does not touch the disk. resolve() follows symlinks and can
+    # sit forever on an external drive that is plugged in but not responding.
+    archive = Path(args.archive).expanduser().absolute()
+    live = Path(args.live).expanduser().absolute()
 
     for label, folder in (("archive", archive), ("live", live)):
-        if not folder.exists():
+        print(f"mp3missing: checking {label} folder {folder}", file=sys.stderr, flush=True)
+        try:
+            exists = folder.exists()
+            is_dir = folder.is_dir() if exists else False
+        except OSError as exc:
+            print(f"error: {label} folder could not be read: {exc}", file=sys.stderr)
+            return 2
+        if not exists:
             print(f"error: {label} folder does not exist: {folder}", file=sys.stderr)
             return 2
-        if not folder.is_dir():
+        if not is_dir:
             print(f"error: {label} path is not a folder: {folder}", file=sys.stderr)
             return 2
     if archive == live:
