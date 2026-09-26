@@ -46,7 +46,8 @@ def scan_library(root: Path, *, label: str = "library") -> ScanResult:
 
     Other file types are ignored. A file that cannot be parsed is listed
     in ``unreadable`` and left out of ``tracks``; one bad file does not
-    stop the scan. Progress is printed to stderr every 1000 files.
+    stop the scan. Progress is printed to stderr at the start and every
+    100 files, so a long read of an external disk does not look frozen.
     """
 
     tracks: list[Track] = []
@@ -55,6 +56,7 @@ def scan_library(root: Path, *, label: str = "library") -> ScanResult:
     def onerror(err: OSError) -> None:
         unreadable.append((Path(err.filename or root), err.strerror or str(err)))
 
+    print(f"{label}: reading {root}", file=sys.stderr, flush=True)
     seen = 0
     for dirpath, _dirnames, filenames in os.walk(root, onerror=onerror):
         for name in filenames:
@@ -66,9 +68,10 @@ def scan_library(root: Path, *, label: str = "library") -> ScanResult:
                 tracks.append(read_track(path))
             except UnreadableMP3 as exc:
                 unreadable.append((path, str(exc)))
-            if seen % 1000 == 0:
+            if seen % 100 == 0:
                 print(f"{label}: read {seen} MP3s...", file=sys.stderr, flush=True)
 
+    print(f"{label}: finished, {seen} MP3s", file=sys.stderr, flush=True)
     return ScanResult(tracks=tracks, unreadable=unreadable)
 
 
