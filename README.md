@@ -50,14 +50,18 @@ Python 3.11 or newer. Mount the archive disk, then point the tool at the two fol
 
 The archive disk is the volume named HD, folder `Music`. On a Mac that is `/Volumes/HD/Music`. The live library is `/Users/AC/Music/Music/Media.localized/Music`.
 
-From the project folder, with the HD disk plugged in:
+Run this on the Mac, in Terminal, from the project folder (the folder that contains `requirements.txt` and `mp3missing`). The home folder is not that folder. With the HD disk plugged in:
 
 ```bash
+cd /path/to/this/project
+ls requirements.txt mp3missing
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 python -m mp3missing "/Volumes/HD/Music" "/Users/AC/Music/Music/Media.localized/Music"
 ```
+
+`ls` must print `requirements.txt` and `mp3missing` before the install. If it says "No such file", the `cd` path is wrong.
 
 `mutagen` is pinned in `requirements.txt`. It reads the MPEG header and ID3 text. It does not decode the audio.
 
