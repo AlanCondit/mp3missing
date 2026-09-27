@@ -129,7 +129,11 @@ class LibraryReportTests(unittest.TestCase):
             stdout = io.StringIO()
             stderr = io.StringIO()
             with redirect_stdout(stdout), redirect_stderr(stderr):
-                code = main([str(archive), str(live)])
+                xlsx_path = archive.parent / "missing.xlsx"
+                code = main([str(archive), str(live), "--xlsx", str(xlsx_path)])
+            from openpyxl import load_workbook
+
+            sheet_rows = list(load_workbook(xlsx_path).active.iter_rows(values_only=True))
 
         self.assertEqual(code, 0)
         report = stdout.getvalue()
@@ -149,6 +153,15 @@ class LibraryReportTests(unittest.TestCase):
         self.assertIn("Missing: 3", summary)
         self.assertIn("bad.mp3", summary)
         self.assertIn("1 unreadable", summary)
+        self.assertEqual(sheet_rows[0], ("Artist", "Album", "Song"))
+        self.assertEqual(
+            sheet_rows[1:],
+            [
+                ("Aardvark", "Alpha", "Long"),
+                ("Aardvark", "Alpha", "Low"),
+                ("Aardvark", "Beta", "Only"),
+            ],
+        )
 
     def test_empty_gap_is_a_clear_sentence(self) -> None:
         with TemporaryDirectory() as tmp:
@@ -157,7 +170,9 @@ class LibraryReportTests(unittest.TestCase):
             write_cbr_mp3(folder / "b" / "song.mp3", bitrate_kbps=192, frames=8)
             stdout = io.StringIO()
             with redirect_stdout(stdout), redirect_stderr(io.StringIO()):
-                code = main([str(folder / "a"), str(folder / "b")])
+                code = main(
+                    [str(folder / "a"), str(folder / "b"), "--xlsx", str(folder / "missing.xlsx")]
+                )
         self.assertEqual(code, 0)
         self.assertIn("No archive MP3s are missing", stdout.getvalue())
 
@@ -201,7 +216,15 @@ class LibraryReportTests(unittest.TestCase):
             )
             live.mkdir()
             completed = subprocess.run(
-                [sys.executable, "-m", "mp3missing", str(archive), str(live)],
+                [
+                    sys.executable,
+                    "-m",
+                    "mp3missing",
+                    str(archive),
+                    str(live),
+                    "--xlsx",
+                    str(Path(tmp) / "missing.xlsx"),
+                ],
                 cwd=ROOT,
                 check=False,
                 capture_output=True,

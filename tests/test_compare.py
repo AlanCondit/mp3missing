@@ -6,7 +6,7 @@ import time
 import unittest
 from pathlib import Path
 
-from mp3missing.compare import find_missing, name_key
+from mp3missing.compare import find_missing, name_key, song_name
 from mp3missing.model import Track
 
 
@@ -35,6 +35,20 @@ class NameKeyTests(unittest.TestCase):
         nfd = "Cafe\u0301.mp3"
         self.assertNotEqual(nfc, nfd)
         self.assertEqual(name_key(nfc), name_key(nfd))
+
+    def test_track_numbers_and_copy_markers_are_the_same_song(self) -> None:
+        self.assertEqual(song_name("01 - Airbag.mp3"), "Airbag")
+        self.assertEqual(song_name("01 Airbag.m4a"), "Airbag")
+        self.assertEqual(song_name("1-01 Airbag copy 2.mp3"), "Airbag")
+        self.assertEqual(song_name("Copy of Airbag.mp3"), "Airbag")
+        self.assertEqual(name_key("01 - Airbag.mp3"), name_key("Airbag copy.m4a"))
+        self.assertNotEqual(name_key("19-2000.mp3"), name_key("2000.mp3"))
+        self.assertEqual(name_key("1979.mp3"), name_key("1979.m4a"))
+
+    def test_track_number_and_copy_do_not_count_as_missing(self) -> None:
+        archive = [track("01 - Airbag.mp3", 241.2, 320, "Radiohead", "OK Computer")]
+        live = [track("Airbag copy.m4a", 241.0, 320, directory="/live")]
+        self.assertEqual(find_missing(archive, live), [])
 
 
 class FindMissingTests(unittest.TestCase):

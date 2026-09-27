@@ -1,6 +1,6 @@
 # MP3 missing
 
-This tool compares an archive of an MP3 library (on another disk) with the live library on a Mac. It lists archive MP3s that are not in the live library.
+This tool compares an archive of an MP3 and M4A library (on another disk) with the live library on a Mac. It lists archive audio files that are not in the live library.
 
 The check is one-way. A file that exists only on the Mac is not listed. Nothing is copied, deleted, or retagged. Both folders are read only.
 
@@ -18,9 +18,9 @@ Read it in this order:
 
 A live file is the same recording as an archive file only when all three of these agree:
 
-1. **File name.** The basename only, such as `01 Airbag.mp3`. The folders are ignored. Album and artist folder names often differ because those names were changed in the live library.
+1. **File name.** The basename only, such as `01 Airbag.mp3`. The folders are ignored. A leading track number (`01 -`, `01.`, `1-01`) and a Finder copy marker (`copy`, `copy 2`, `Copy of`) are ignored, so `01 - Airbag.mp3` matches `Airbag copy.m4a`. `.mp3` and `.m4a` are not part of the name. Album and artist folder names often differ because those names were changed in the live library.
 2. **Duration.** The two lengths are equal within **1 second**, inclusive (`--tolerance` changes this). Header estimates for the same recording can differ slightly. A different edit is usually much further apart than that.
-3. **Quality.** MP3 bitrate in **kbps**. The integers must be the same. A 128 kbps copy on the Mac does not stand in for a 320 kbps archive file.
+3. **Quality.** Bitrate in **kbps**, from the MP3 or M4A header. The integers must be the same. A 128 kbps copy on the Mac does not stand in for a 320 kbps archive file.
 
 File names are compared **case-insensitively** (Unicode casefold), and NFC and NFD forms of the same name are treated as equal. That matches a typical Mac volume: default APFS and HFS are case-insensitive, and Finder stores names in decomposed Unicode. The tool always compares names this way, including if you run it on Linux, because the live library is the Mac one.
 
@@ -30,8 +30,10 @@ The check is existence, not a count. One matching live file covers every archive
 
 These files are ignored:
 
-- anything that is not `.mp3` (any capitalization)
+- anything that is not `.mp3` or `.m4a` (any capitalization)
 - AppleDouble sidecars named `._Something.mp3`
+
+While it scans, progress is printed in the terminal: a start line, then a count and the current file name every 25 files.
 
 An `.mp3` whose header cannot be read is not guessed at. It is counted as unreadable on stderr and left out of the missing list. An unreadable live file can hide a match, so those warnings are worth a look.
 
@@ -60,6 +62,8 @@ source .venv/bin/activate
 pip install -r requirements.txt
 python -m mp3missing "/Volumes/HD/Music" "/Users/AC/Music/Music/Media.localized/Music"
 ```
+
+That prints the missing list in the terminal and writes `missing.xlsx` in the project folder. The spreadsheet columns are Artist, Album, and Song. Song is the file name with the track number and any "copy" marker removed.
 
 `ls` must print `requirements.txt` and `mp3missing` before the install. If it says "No such file", the `cd` path is wrong.
 

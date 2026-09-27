@@ -10,7 +10,7 @@ from mutagen.id3 import TALB, TPE1
 from mutagen.mp3 import MP3
 
 from mp3missing.model import UNKNOWN_ALBUM, UNKNOWN_ARTIST
-from mp3missing.scan import UnreadableMP3, is_mp3_filename, read_track, scan_library
+from mp3missing.scan import UnreadableMP3, is_audio_filename, is_mp3_filename, read_track, scan_library
 from tests.mp3gen import (
     expected_cbr_duration,
     expected_vbr_duration,
@@ -26,6 +26,9 @@ class FilenameTests(unittest.TestCase):
         self.assertFalse(is_mp3_filename("Song.flac"))
         self.assertFalse(is_mp3_filename("notes.txt"))
         self.assertFalse(is_mp3_filename("._Song.mp3"))
+        self.assertTrue(is_audio_filename("Song.m4a"))
+        self.assertTrue(is_audio_filename("Song.M4A"))
+        self.assertFalse(is_audio_filename("._Song.m4a"))
 
 
 class ReadTrackTests(unittest.TestCase):
@@ -179,6 +182,15 @@ class ScanLibraryTests(unittest.TestCase):
         keep = next(track for track in result.tracks if track.filename == "Keep.mp3")
         self.assertEqual(keep.artist, "Keep Artist")
         self.assertEqual(keep.bitrate_kbps, 320)
+
+    def test_reads_m4a_artist_album_duration_and_bitrate(self) -> None:
+        fixture = Path(__file__).parent / "fixtures" / "tiny.m4a"
+        track = read_track(fixture)
+        self.assertEqual(track.filename, "tiny.m4a")
+        self.assertEqual(track.artist, "Fixture Artist")
+        self.assertEqual(track.album, "Fixture Album")
+        self.assertAlmostEqual(track.duration, 0.323, places=2)
+        self.assertGreater(track.bitrate_kbps, 0)
 
 
 def _synchsafe(size: int) -> bytes:

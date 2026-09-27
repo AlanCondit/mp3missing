@@ -14,6 +14,7 @@ from pathlib import Path
 from mp3missing.compare import find_missing
 from mp3missing.model import DURATION_TOLERANCE_SECONDS, Track
 from mp3missing.scan import ScanResult, scan_library
+from mp3missing.sheet import write_xlsx
 
 
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
@@ -43,6 +44,11 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
             "durations within this many seconds count as equal "
             f"(default: {DURATION_TOLERANCE_SECONDS:g})"
         ),
+    )
+    parser.add_argument(
+        "--xlsx",
+        default="missing.xlsx",
+        help="spreadsheet to write (default: missing.xlsx in the current folder)",
     )
     return parser.parse_args(argv)
 
@@ -89,6 +95,13 @@ def main(argv: list[str] | None = None) -> int:
     _print_summary(archive, live, archive_scan, live_scan, missing, args.tolerance)
     _warn_unreadable("archive", archive_scan.unreadable)
     _warn_unreadable("live", live_scan.unreadable)
+    xlsx_path = Path(args.xlsx).expanduser().absolute()
+    try:
+        write_xlsx(xlsx_path, missing)
+    except OSError as exc:
+        print(f"error: could not write {xlsx_path}: {exc}", file=sys.stderr)
+        return 2
+    print(f"mp3missing: wrote {xlsx_path}", file=sys.stderr, flush=True)
     sys.stdout.write(render_report(missing))
     return 0
 
@@ -138,17 +151,17 @@ def _print_summary(
     tolerance: float,
 ) -> None:
     print(
-        f"Archive: {len(archive_scan.tracks)} MP3s "
+        f"Archive: {len(archive_scan.tracks)} audio files "
         f"({len(archive_scan.unreadable)} unreadable) — {archive}",
         file=sys.stderr,
     )
     print(
-        f"Live:    {len(live_scan.tracks)} MP3s "
+        f"Live:    {len(live_scan.tracks)} audio files "
         f"({len(live_scan.unreadable)} unreadable) — {live}",
         file=sys.stderr,
     )
     print(
-        "Match:   file name (case-insensitive), "
+        "Match:   file name (ignoring track numbers and 'copy'), "
         f"duration (±{tolerance:g}s), bitrate (kbps)",
         file=sys.stderr,
     )
