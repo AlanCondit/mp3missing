@@ -39,6 +39,12 @@ _DASHES = str.maketrans(
 _SEPARATORS = re.compile(r"[/_-]+")
 # Match keys ignore these characters entirely.
 _IGNORE_CHARS = re.compile(r"[,.'’‘]")
+# After punctuation is gone, these spoken/-in forms match the -ing spelling.
+_ING_EQUIV = {
+    "talkin": "talking",
+    "blowin": "blowing",
+    "givin": "giving",
+}
 
 
 def parse_album_folder(name: str) -> tuple[int, str] | None:
@@ -69,11 +75,13 @@ def track_key(name: str) -> str:
 
     Track numbers and Finder copy markers are stripped first (same as
     ``song_name``). For the key itself: ``/``, ``_``, and ``-`` count as
-    one separator; ``,`` ``.`` ``'`` and ``’`` are ignored.
+    one separator; ``,`` ``.`` ``'`` and ``’`` are ignored. Spoken
+    ``-in`` forms (``talkin``, ``blowin``, ``givin``) match ``-ing``.
+    Files are never renamed.
     """
 
     text = song_name(name) if _looks_like_filename(name) else name
-    return _match_key(text)
+    return _normalize_ing_words(_match_key(text))
 
 
 def _match_key(text: str) -> str:
@@ -86,6 +94,14 @@ def _match_key(text: str) -> str:
     text = unicodedata.normalize("NFC", text)
     text = re.sub(r"\s+", " ", text).strip()
     return text.casefold()
+
+
+def _normalize_ing_words(text: str) -> str:
+    """Map talkin/blowin/givin to talking/blowing/giving (whole words)."""
+
+    if not text:
+        return text
+    return " ".join(_ING_EQUIV.get(word, word) for word in text.split(" "))
 
 
 def _looks_like_filename(name: str) -> bool:

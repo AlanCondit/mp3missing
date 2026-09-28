@@ -69,6 +69,21 @@ class NameTests(unittest.TestCase):
             track_key("Just Like Tom Thumbs Blues"),
         )
 
+    def test_track_key_equates_talkin_blowin_givin_with_ing(self) -> None:
+        self.assertEqual(
+            track_key("Talkin’ New York"),
+            track_key("Talking New York"),
+        )
+        self.assertEqual(
+            track_key("01 - Blowin' in the Wind.mp3"),
+            track_key("Blowing in the Wind"),
+        )
+        self.assertEqual(
+            track_key("Givin’ myself away"),
+            track_key("Giving myself away"),
+        )
+        self.assertEqual(track_key("Talkin’ New York"), "talking new york")
+
 
 class CheckTests(unittest.TestCase):
     def test_catalog_loads_forty_studio_albums(self) -> None:
