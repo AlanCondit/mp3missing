@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import re
 import unicodedata
-from pathlib import Path
 
 # Live album folders look like "1965 - Highway 61 Revisited".
 _ALBUM_FOLDER = re.compile(r"^(\d{4})\s+-\s+(.+)$")
@@ -36,6 +35,10 @@ _DASHES = str.maketrans(
         "\u00a0": " ",
     }
 )
+# Match keys treat these as the same separator (a single space).
+_SEPARATORS = re.compile(r"[/_-]+")
+# Match keys ignore these characters entirely.
+_IGNORE_CHARS = re.compile(r"[,.'’‘]")
 
 
 def parse_album_folder(name: str) -> tuple[int, str] | None:
@@ -48,14 +51,9 @@ def parse_album_folder(name: str) -> tuple[int, str] | None:
 
 
 def album_key(title: str) -> str:
-    """Compare album titles without year, case, or fancy punctuation."""
+    """Compare album titles without year, case, or match-key punctuation."""
 
-    text = title.strip()
-    text = text.strip("\"“”‘’'")
-    text = text.translate(_DASHES)
-    text = unicodedata.normalize("NFC", text)
-    text = re.sub(r"\s+", " ", text)
-    return text.casefold()
+    return _match_key(title)
 
 
 def song_name(filename: str) -> str:
@@ -63,34 +61,47 @@ def song_name(filename: str) -> str:
 
     stem = _stem(filename)
     cleaned = _strip_name_marks(stem)
-    return cleaned or stem.strip() or Path(filename).stem
+    return cleaned or stem.strip() or filename
 
 
 def track_key(name: str) -> str:
-    """Key for matching an expected title to a live audio file name."""
+    """Key for matching an expected title to a live audio file name.
+
+    Track numbers and Finder copy markers are stripped first (same as
+    ``song_name``). For the key itself: ``/``, ``_``, and ``-`` count as
+    one separator; ``,`` ``.`` ``'`` and ``’`` are ignored.
+    """
 
     text = song_name(name) if _looks_like_filename(name) else name
-    text = text.translate(_DASHES)
+    return _match_key(text)
+
+
+def _match_key(text: str) -> str:
+    text = text.strip()
     text = text.strip("\"“”‘’'")
-    text = unicodedata.normalize("NFC", text)
-    text = re.sub(r"\s+", " ", text)
-    # Catalog sometimes uses "#" / "№"; treat as equivalent space/number mark.
+    text = text.translate(_DASHES)
     text = text.replace("♯", "#")
+    text = _IGNORE_CHARS.sub("", text)
+    text = _SEPARATORS.sub(" ", text)
+    text = unicodedata.normalize("NFC", text)
+    text = re.sub(r"\s+", " ", text).strip()
     return text.casefold()
 
 
 def _looks_like_filename(name: str) -> bool:
     folded = name.casefold()
-    return any(folded.endswith(ext) for ext in _AUDIO_EXTENSIONS) or "/" in name
+    return any(folded.endswith(ext) for ext in _AUDIO_EXTENSIONS)
 
 
 def _stem(filename: str) -> str:
-    name = Path(filename).name
+    # Do not use Path(...).name: a title may contain "/" (e.g. Love/Theft).
+    # Live files are already basenames from the scanner.
+    name = filename
     folded = name.casefold()
     for extension in _AUDIO_EXTENSIONS:
         if folded.endswith(extension):
             return name[: -len(extension)]
-    return Path(name).stem
+    return name
 
 
 def _strip_name_marks(stem: str) -> str:

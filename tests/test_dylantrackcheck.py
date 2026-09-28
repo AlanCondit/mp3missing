@@ -47,6 +47,28 @@ class NameTests(unittest.TestCase):
             track_key("Rainy Day Women ♯12 & 35"),
         )
 
+    def test_track_key_treats_separators_alike_and_drops_punctuation(self) -> None:
+        self.assertEqual(
+            track_key("Love/Theft.mp3"),
+            track_key("Love_Theft"),
+        )
+        self.assertEqual(
+            track_key("Love-Theft"),
+            track_key("Love Theft"),
+        )
+        self.assertEqual(
+            track_key("01 - Don't Think Twice, It's All Right.mp3"),
+            track_key("Dont Think Twice Its All Right"),
+        )
+        self.assertEqual(
+            track_key("Mr. Tambourine Man"),
+            track_key("Mr Tambourine Man"),
+        )
+        self.assertEqual(
+            track_key("Just Like Tom Thumb’s Blues"),
+            track_key("Just Like Tom Thumbs Blues"),
+        )
+
 
 class CheckTests(unittest.TestCase):
     def test_catalog_loads_forty_studio_albums(self) -> None:
