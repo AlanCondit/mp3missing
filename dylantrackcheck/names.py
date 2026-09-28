@@ -39,6 +39,8 @@ _DASHES = str.maketrans(
 _SEPARATORS = re.compile(r"[/_-]+")
 # Match keys ignore these characters entirely.
 _IGNORE_CHARS = re.compile(r"[,.'’‘]")
+# After the track number is gone, drop trailing "(With …)", "(feat. …)", etc.
+_TRAILING_PAREN = re.compile(r"\s*\([^)]*\)\s*$")
 # After punctuation is gone, these spoken/-in forms match the -ing spelling.
 _ING_EQUIV = {
     "talkin": "talking",
@@ -74,14 +76,27 @@ def track_key(name: str) -> str:
     """Key for matching an expected title to a live audio file name.
 
     Track numbers and Finder copy markers are stripped first (same as
-    ``song_name``). For the key itself: ``/``, ``_``, and ``-`` count as
-    one separator; ``,`` ``.`` ``'`` and ``’`` are ignored. Spoken
-    ``-in`` forms (``talkin``, ``blowin``, ``givin``) match ``-ing``.
-    Files are never renamed.
+    ``song_name``). Trailing parentheticals such as ``(With …)``,
+    ``(feat. …)``, ``(Album Version)`` are removed for matching only.
+    Then ``/``, ``_``, and ``-`` count as one separator; ``,`` ``.``
+    ``'`` and ``’`` are ignored; spoken ``-in`` forms match ``-ing``.
+    Spreadsheet display still uses the full file name. Files are never
+    renamed.
     """
 
     text = song_name(name) if _looks_like_filename(name) else name
+    text = _strip_trailing_parentheticals(text)
     return _normalize_ing_words(_match_key(text))
+
+
+def _strip_trailing_parentheticals(text: str) -> str:
+    """Remove trailing ``(…)`` segments used for guests, remasters, etc."""
+
+    previous = None
+    while text != previous:
+        previous = text
+        text = _TRAILING_PAREN.sub("", text).strip()
+    return text
 
 
 def _match_key(text: str) -> str:

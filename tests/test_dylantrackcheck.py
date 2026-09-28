@@ -84,6 +84,33 @@ class NameTests(unittest.TestCase):
         )
         self.assertEqual(track_key("Talkin’ New York"), "talking new york")
 
+    def test_track_key_strips_trailing_parentheticals(self) -> None:
+        self.assertEqual(
+            track_key("Girl From The North Country (With Johnny Cash).mp3"),
+            track_key("Girl From the North Country"),
+        )
+        self.assertEqual(
+            track_key("01 - Song (feat. Alice).mp3"),
+            track_key("Song"),
+        )
+        self.assertEqual(
+            track_key("Song (featuring Bob)"),
+            track_key("Song"),
+        )
+        self.assertEqual(
+            track_key("Song (Album Version)"),
+            track_key("Song"),
+        )
+        self.assertEqual(
+            track_key("Song (Remaster) (Official Audio)"),
+            track_key("Song"),
+        )
+        # Display path still keeps the full name; only the key is cleaned.
+        self.assertEqual(
+            track_key("Girl From The North Country (With Johnny Cash)"),
+            "girl from the north country",
+        )
+
 
 class CheckTests(unittest.TestCase):
     def test_catalog_loads_forty_studio_albums(self) -> None:
