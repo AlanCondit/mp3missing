@@ -100,6 +100,20 @@ The command exits 0 when the report was written, including when some files are m
 
 If Terminal says the archive folder does not exist, the disk may be mounted under a different name. Run `ls /Volumes` and use the name Finder shows for that drive, still ending in `/Music`.
 
+## Dylan album track check
+
+Separate from the archive-vs-live missing tool. `dylantrackcheck` looks only at Bob Dylan albums you already have in the live library and checks each folder’s audio files against the studio track listing.
+
+Live album folders must be named `YYYY - Album Title` under the Bob Dylan artist folder. Albums that are not on disk are skipped.
+
+```bash
+cd /path/to/this/project
+source .venv/bin/activate
+python -m dylantrackcheck "/Users/AC/Music/Music/Media.localized/Music"
+```
+
+That writes `dylan-track-check.xlsx` in the project folder (Summary, Problems, and unmatched folders). The main check function is `check_live_albums` in `dylantrackcheck/compare.py`.
+
 ## Tests
 
 The tests build tiny real MP3 frames (and a Xing header for the variable-bitrate case). They do not need a 12,000-file library.

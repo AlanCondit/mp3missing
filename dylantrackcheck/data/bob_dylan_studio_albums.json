@@ -1,0 +1,3751 @@
+{
+  "source": "MusicBrainz",
+  "artist": "Bob Dylan",
+  "albums": [
+    {
+      "album": "Bob Dylan",
+      "year": 1962,
+      "release_group_id": "6ac612a5-e815-3fed-b341-8b3faa351df4",
+      "release_id": "ff0e0af8-46f0-337c-9147-006477c5865a",
+      "release_title": "Bob Dylan",
+      "release_date": "1989",
+      "country": "US",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "You\u2019re No Good",
+          "length_seconds": 100
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "Talkin\u2019 New York",
+          "length_seconds": 199
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "In My Time of Dyin\u2019",
+          "length_seconds": 159
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "Man of Constant Sorrow",
+          "length_seconds": 188
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "Fixin\u2019 to Die",
+          "length_seconds": 141
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "Pretty Peggy\u2010O",
+          "length_seconds": 203
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "Highway 51",
+          "length_seconds": 173
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "Gospel Plow",
+          "length_seconds": 106
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "9",
+          "title": "Baby, Let Me Follow You Down",
+          "length_seconds": 155
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "10",
+          "title": "House of the Risin\u2019 Sun",
+          "length_seconds": 318
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "11",
+          "title": "Freight Train Blues",
+          "length_seconds": 139
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "12",
+          "title": "Song to Woody",
+          "length_seconds": 162
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "13",
+          "title": "See That My Grave Is Kept Clean",
+          "length_seconds": 163
+        }
+      ]
+    },
+    {
+      "album": "The Freewheelin' Bob Dylan",
+      "year": 1963,
+      "release_group_id": "169b62aa-c3a5-3ed9-bed1-cc47c4bc51ad",
+      "release_id": "942be4b0-12a2-4264-93a3-b45fa94c95c0",
+      "release_title": "The Freewheelin\u2019 Bob Dylan",
+      "release_date": "1963-05-27",
+      "country": "US",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "A1",
+          "title": "Blowin\u2019 in the Wind",
+          "length_seconds": 169
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "A2",
+          "title": "Girl From the North Country",
+          "length_seconds": 203
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "A3",
+          "title": "Masters of War",
+          "length_seconds": 274
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "A4",
+          "title": "Down the Highway",
+          "length_seconds": 207
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "A5",
+          "title": "Bob Dylan\u2019s Blues",
+          "length_seconds": 143
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "A6",
+          "title": "A Hard Rain\u2019s A\u2010Gonna Fall",
+          "length_seconds": 415
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "B1",
+          "title": "Don\u2019t Think Twice, It\u2019s All Right",
+          "length_seconds": 220
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "B2",
+          "title": "Bob Dylan\u2019s Dream",
+          "length_seconds": 303
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "B3",
+          "title": "Oxford Town",
+          "length_seconds": 110
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "B4",
+          "title": "Talkin\u2019 World War III Blues",
+          "length_seconds": 388
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "B5",
+          "title": "Corrina, Corrina",
+          "length_seconds": 164
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "B6",
+          "title": "Honey, Just Allow Me One More Chance",
+          "length_seconds": 121
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "B7",
+          "title": "I Shall Be Free",
+          "length_seconds": 289
+        }
+      ]
+    },
+    {
+      "album": "The Times They Are a-Changin'",
+      "year": 1964,
+      "release_group_id": "846f8032-9a85-3f4f-b7f5-28c86573d044",
+      "release_id": "76324eff-8fa7-4b6b-95ce-1ff1cb745ce0",
+      "release_title": "The Times They Are A-Changin'",
+      "release_date": "1989",
+      "country": "US",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "The Times They Are A\u2010Changin\u2019",
+          "length_seconds": 195
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "Ballad of Hollis Brown",
+          "length_seconds": 305
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "With God on Our Side",
+          "length_seconds": 428
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "One Too Many Mornings",
+          "length_seconds": 160
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "North Country Blues",
+          "length_seconds": 274
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "Only a Pawn in Their Game",
+          "length_seconds": 213
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "Boots of Spanish Leather",
+          "length_seconds": 280
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "When the Ship Comes In",
+          "length_seconds": 198
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "9",
+          "title": "The Lonesome Death of Hattie Carroll",
+          "length_seconds": 347
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "10",
+          "title": "Restless Farewell",
+          "length_seconds": 334
+        }
+      ]
+    },
+    {
+      "album": "Another Side of Bob Dylan",
+      "year": 1964,
+      "release_group_id": "b18ef710-0e47-3c10-ab0b-6631533549ee",
+      "release_id": "9413a03d-361d-4f6b-bcba-c08adbc69102",
+      "release_title": "Another Side of Bob Dylan",
+      "release_date": "1989",
+      "country": "US",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "All I Really Want to Do",
+          "length_seconds": 244
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "Black Crow Blues",
+          "length_seconds": 194
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "Spanish Harlem Incident",
+          "length_seconds": 144
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "Chimes of Freedom",
+          "length_seconds": 430
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "I Shall Be Free No. 10",
+          "length_seconds": 288
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "To Ramona",
+          "length_seconds": 232
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "Motorpsycho Nitemare",
+          "length_seconds": 274
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "My Back Pages",
+          "length_seconds": 263
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "9",
+          "title": "I Don\u2019t Believe You",
+          "length_seconds": 262
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "10",
+          "title": "Ballad in Plain D",
+          "length_seconds": 497
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "11",
+          "title": "It Ain\u2019t Me Babe",
+          "length_seconds": 213
+        }
+      ]
+    },
+    {
+      "album": "Bringing It All Back Home",
+      "year": 1965,
+      "release_group_id": "6cadda7c-fbd0-3b19-9546-56915e3305d8",
+      "release_id": "4579d0be-1220-30db-8aa3-02975924a786",
+      "release_title": "Bringing It All Back Home",
+      "release_date": "1989-06-19",
+      "country": "GB",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "Subterranean Homesick Blues",
+          "length_seconds": 145
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "She Belongs to Me",
+          "length_seconds": 170
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "Maggie's Farm",
+          "length_seconds": 238
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "Love Minus Zero/No Limit",
+          "length_seconds": 174
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "Outlaw Blues",
+          "length_seconds": 187
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "On the Road Again",
+          "length_seconds": 158
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "Bob Dylan's 115th Dream",
+          "length_seconds": 393
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "Mr. Tambourine Man",
+          "length_seconds": 334
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "9",
+          "title": "Gates of Eden",
+          "length_seconds": 343
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "10",
+          "title": "It's Alright, Ma (I'm Only Bleeding)",
+          "length_seconds": 452
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "11",
+          "title": "It's All Over Now, Baby Blue",
+          "length_seconds": 254
+        }
+      ]
+    },
+    {
+      "album": "Highway 61 Revisited",
+      "year": 1965,
+      "release_group_id": "fb48b1dc-412f-36aa-8820-1023c08c46c6",
+      "release_id": "2b53a291-ebd3-3681-bd53-ec813f7962cf",
+      "release_title": "Highway 61 Revisited",
+      "release_date": "1987",
+      "country": "US",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "Like a Rolling Stone",
+          "length_seconds": 373
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "Tombstone Blues",
+          "length_seconds": 358
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "It Takes a Lot to Laugh, It Takes a Train to Cry",
+          "length_seconds": 249
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "From a Buick 6",
+          "length_seconds": 199
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "Ballad of a Thin Man",
+          "length_seconds": 359
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "Queen Jane Approximately",
+          "length_seconds": 331
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "Highway 61 Revisited",
+          "length_seconds": 210
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "Just Like Tom Thumb's Blues",
+          "length_seconds": 332
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "9",
+          "title": "Desolation Row",
+          "length_seconds": 680
+        }
+      ]
+    },
+    {
+      "album": "Blonde on Blonde",
+      "year": 1966,
+      "release_group_id": "329fb554-2a81-3d8a-8e22-ec2c66810019",
+      "release_id": "4d894f37-ca03-38ff-bad2-ef1aaa5ea9c0",
+      "release_title": "Blonde on Blonde",
+      "release_date": "1982-05",
+      "country": "US",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "Rainy Day Women #12 & 35",
+          "length_seconds": 278
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "Pledging My Time",
+          "length_seconds": 230
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "Visions of Johanna",
+          "length_seconds": 454
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "One of Us Must Know (Sooner or Later)",
+          "length_seconds": 296
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "I Want You",
+          "length_seconds": 188
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "Stuck Inside of Mobile With the Memphis Blues Again",
+          "length_seconds": 426
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "Leopard-Skin Pill-Box Hat",
+          "length_seconds": 240
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "Just Like a Woman",
+          "length_seconds": 294
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "9",
+          "title": "Most Likely You Go Your Way and I'll Go Mine",
+          "length_seconds": 210
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "10",
+          "title": "Temporary Like Achilles",
+          "length_seconds": 307
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "11",
+          "title": "Absolutely Sweet Marie",
+          "length_seconds": 297
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "12",
+          "title": "4th Time Around",
+          "length_seconds": 277
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "13",
+          "title": "Obviously Five Believers",
+          "length_seconds": 217
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "14",
+          "title": "Sad-Eyed Lady of the Lowlands",
+          "length_seconds": 680
+        }
+      ]
+    },
+    {
+      "album": "John Wesley Harding",
+      "year": 1967,
+      "release_group_id": "32981714-597a-32dd-9f29-b2f7566fed89",
+      "release_id": "ae062037-befc-4a62-aa89-54c4898fed5b",
+      "release_title": "John Wesley Harding",
+      "release_date": "1987",
+      "country": "US",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "John Wesley Harding",
+          "length_seconds": 178
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "As I Went Out One Morning",
+          "length_seconds": 169
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "I Dreamed I Saw St. Augustine",
+          "length_seconds": 233
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "All Along the Watchtower",
+          "length_seconds": 152
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "The Ballad of Frankie Lee and Judas Priest",
+          "length_seconds": 336
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "Drifter\u2019s Escape",
+          "length_seconds": 172
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "Dear Landlord",
+          "length_seconds": 196
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "I Am a Lonesome Hobo",
+          "length_seconds": 199
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "9",
+          "title": "I Pity the Poor Immigrant",
+          "length_seconds": 253
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "10",
+          "title": "The Wicked Messenger",
+          "length_seconds": 123
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "11",
+          "title": "Down Along the Cove",
+          "length_seconds": 144
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "12",
+          "title": "I\u2019ll Be Your Baby Tonight",
+          "length_seconds": 156
+        }
+      ]
+    },
+    {
+      "album": "Nashville Skyline",
+      "year": 1969,
+      "release_group_id": "2ca28746-8987-3015-b54c-75b3aa8ca1a1",
+      "release_id": "5333e6ee-70b0-34dc-af15-f2a1072673cd",
+      "release_title": "Nashville Skyline",
+      "release_date": "1988-04-25",
+      "country": "GB",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "Girl From the North Country",
+          "length_seconds": 224
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "Nashville Skyline Rag",
+          "length_seconds": 194
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "To Be Alone With You",
+          "length_seconds": 130
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "I Threw It All Away",
+          "length_seconds": 146
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "Peggy Day",
+          "length_seconds": 123
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "Lay Lady Lay",
+          "length_seconds": 201
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "One More Night",
+          "length_seconds": 145
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "Tell Me That It Isn't True",
+          "length_seconds": 163
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "9",
+          "title": "Country Pie",
+          "length_seconds": 98
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "10",
+          "title": "Tonight I'll Be Staying Here With You",
+          "length_seconds": 204
+        }
+      ]
+    },
+    {
+      "album": "Self Portrait",
+      "year": 1970,
+      "release_group_id": "6163aa70-d97f-34e5-a5bf-54b7d85a7ea0",
+      "release_id": "8dbf3f07-055c-3a73-86d2-b882f6b8db36",
+      "release_title": "Self Portrait",
+      "release_date": "1989",
+      "country": "US",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "All the Tired Horses",
+          "length_seconds": 193
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "Alberta #1",
+          "length_seconds": 177
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "I Forgot More Than You'll Ever Know",
+          "length_seconds": 143
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "Days of 49",
+          "length_seconds": 327
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "Early Mornin' Rain",
+          "length_seconds": 214
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "In Search of Little Sadie",
+          "length_seconds": 148
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "Let It Be Me",
+          "length_seconds": 180
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "Little Sadie",
+          "length_seconds": 120
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "9",
+          "title": "Woogie Boogie",
+          "length_seconds": 127
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "10",
+          "title": "Belle Isle",
+          "length_seconds": 150
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "11",
+          "title": "Living the Blues",
+          "length_seconds": 163
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "12",
+          "title": "Like a Rolling Stone (live)",
+          "length_seconds": 318
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "13",
+          "title": "Copper Kettle",
+          "length_seconds": 215
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "14",
+          "title": "Gotta Travel On",
+          "length_seconds": 188
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "15",
+          "title": "Blue Moon",
+          "length_seconds": 150
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "16",
+          "title": "The Boxer",
+          "length_seconds": 168
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "17",
+          "title": "The Mighty Quinn (Quinn the Eskimo) (live)",
+          "length_seconds": 168
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "18",
+          "title": "Take Me as I Am (or Let Me Go)",
+          "length_seconds": 183
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "19",
+          "title": "Take a Message to Mary",
+          "length_seconds": 167
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "20",
+          "title": "It Hurts Me Too",
+          "length_seconds": 195
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "21",
+          "title": "Minstrel Boy (live)",
+          "length_seconds": 212
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "22",
+          "title": "She Belongs to Me (live)",
+          "length_seconds": 164
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "23",
+          "title": "Wigwam",
+          "length_seconds": 190
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "24",
+          "title": "Alberta #2",
+          "length_seconds": 194
+        }
+      ]
+    },
+    {
+      "album": "New Morning",
+      "year": 1970,
+      "release_group_id": "4f2b915f-cc82-3c18-ac9b-05f3d4df622d",
+      "release_id": "c24ccc41-dea4-3047-a145-69820193d992",
+      "release_title": "New Morning",
+      "release_date": "1989-07-25",
+      "country": "US",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "If Not for You",
+          "length_seconds": 164
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "Day of the Locusts",
+          "length_seconds": 244
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "Time Passes Slowly",
+          "length_seconds": 160
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "Went to See the Gypsy",
+          "length_seconds": 175
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "Winterlude",
+          "length_seconds": 146
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "If Dogs Run Free",
+          "length_seconds": 222
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "New Morning",
+          "length_seconds": 241
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "Sign on the Window",
+          "length_seconds": 225
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "9",
+          "title": "One More Weekend",
+          "length_seconds": 196
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "10",
+          "title": "The Man in Me",
+          "length_seconds": 192
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "11",
+          "title": "Three Angels",
+          "length_seconds": 131
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "12",
+          "title": "Father of Night",
+          "length_seconds": 91
+        }
+      ]
+    },
+    {
+      "album": "Pat Garrett & Billy the Kid",
+      "year": 1973,
+      "release_group_id": "443726be-82e0-3d6d-ab2a-2de3099b0dde",
+      "release_id": "e9124334-7cc2-453e-bbb7-44c2d1395c54",
+      "release_title": "Pat Garrett & Billy the Kid",
+      "release_date": "2008-02-01",
+      "country": "US",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "Main Title Theme (Billy)",
+          "length_seconds": 366
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "Cantina Theme (Workin\u2019 for the Law)",
+          "length_seconds": 177
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "Billy 1",
+          "length_seconds": 235
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "Bunkhouse Theme",
+          "length_seconds": 136
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "River Theme",
+          "length_seconds": 88
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "Turkey Chase",
+          "length_seconds": 214
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "Knockin\u2019 on Heaven\u2019s Door",
+          "length_seconds": 153
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "Final Theme",
+          "length_seconds": 323
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "9",
+          "title": "Billy 4",
+          "length_seconds": 303
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "10",
+          "title": "Billy 7",
+          "length_seconds": 128
+        }
+      ]
+    },
+    {
+      "album": "Dylan",
+      "year": 1973,
+      "release_group_id": "a876f1e5-9a1a-32ef-a7f2-8971511bd19f",
+      "release_id": "68550b82-2290-4bab-b8d3-7c7dd75fa328",
+      "release_title": "Dylan",
+      "release_date": "1973-11-16",
+      "country": "US",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "A1",
+          "title": "Lily of the West",
+          "length_seconds": 224
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "A2",
+          "title": "Can\u2019t Help Falling in Love",
+          "length_seconds": 257
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "A3",
+          "title": "Sarah Jane",
+          "length_seconds": 163
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "A4",
+          "title": "The Ballad of Ira Hayes",
+          "length_seconds": 308
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "B1",
+          "title": "Mr. Bojangles",
+          "length_seconds": 331
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "B2",
+          "title": "Mary Ann",
+          "length_seconds": 160
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "B3",
+          "title": "Big Yellow Taxi",
+          "length_seconds": 132
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "B4",
+          "title": "A Fool Such as I",
+          "length_seconds": 161
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "B5",
+          "title": "Spanish Is the Loving Tongue",
+          "length_seconds": 253
+        }
+      ]
+    },
+    {
+      "album": "Planet Waves",
+      "year": 1974,
+      "release_group_id": "aedd518d-d7e0-3595-80c7-54d2aad292f8",
+      "release_id": "0932e549-4575-41ae-8fbf-2dd0c7526d58",
+      "release_title": "Planet Waves",
+      "release_date": "1988",
+      "country": "US",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "On a Night Like This",
+          "length_seconds": 179
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "Going, Going, Gone",
+          "length_seconds": 208
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "Tough Mama",
+          "length_seconds": 257
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "Hazel",
+          "length_seconds": 169
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "Something There Is About You",
+          "length_seconds": 284
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "Forever Young",
+          "length_seconds": 297
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "Forever Young",
+          "length_seconds": 169
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "Dirge",
+          "length_seconds": 337
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "9",
+          "title": "You Angel You",
+          "length_seconds": 174
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "10",
+          "title": "Never Say Goodbye",
+          "length_seconds": 174
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "11",
+          "title": "Wedding Song",
+          "length_seconds": 283
+        }
+      ]
+    },
+    {
+      "album": "Blood on the Tracks",
+      "year": 1975,
+      "release_group_id": "9c1b8072-eb1d-33d2-af8c-984d46e40902",
+      "release_id": "9467387f-8897-3c4f-abb7-6cfa68a8cb49",
+      "release_title": "Blood on the Tracks",
+      "release_date": "1987",
+      "country": "US",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "Tangled Up in Blue",
+          "length_seconds": 343
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "Simple Twist of Fate",
+          "length_seconds": 259
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "You\u2019re a Big Girl Now",
+          "length_seconds": 276
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "Idiot Wind",
+          "length_seconds": 470
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "You\u2019re Gonna Make Me Lonesome When You Go",
+          "length_seconds": 176
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "Meet Me in the Morning",
+          "length_seconds": 262
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "Lily, Rosemary and the Jack of Hearts",
+          "length_seconds": 534
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "If You See Her, Say Hello",
+          "length_seconds": 289
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "9",
+          "title": "Shelter From the Storm",
+          "length_seconds": 302
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "10",
+          "title": "Buckets of Rain",
+          "length_seconds": 203
+        }
+      ]
+    },
+    {
+      "album": "The Basement Tapes",
+      "year": 1975,
+      "release_group_id": "47873729-6db0-3431-99e7-0292e939dadf",
+      "release_id": "5149ff66-043e-3efa-8965-9a4f6f75604f",
+      "release_title": "The Basement Tapes",
+      "release_date": "1988",
+      "country": "US",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": "Disc 1",
+          "position": "1",
+          "title": "Odds and Ends",
+          "length_seconds": 107
+        },
+        {
+          "disc": 1,
+          "disc_title": "Disc 1",
+          "position": "2",
+          "title": "Orange Juice Blues (Blues for Breakfast)",
+          "length_seconds": 220
+        },
+        {
+          "disc": 1,
+          "disc_title": "Disc 1",
+          "position": "3",
+          "title": "Million Dollar Bash",
+          "length_seconds": 153
+        },
+        {
+          "disc": 1,
+          "disc_title": "Disc 1",
+          "position": "4",
+          "title": "Yazoo Street Scandal",
+          "length_seconds": 210
+        },
+        {
+          "disc": 1,
+          "disc_title": "Disc 1",
+          "position": "5",
+          "title": "Goin\u2019 to Acapulco",
+          "length_seconds": 329
+        },
+        {
+          "disc": 1,
+          "disc_title": "Disc 1",
+          "position": "6",
+          "title": "Katie\u2019s Been Gone",
+          "length_seconds": 166
+        },
+        {
+          "disc": 1,
+          "disc_title": "Disc 1",
+          "position": "7",
+          "title": "Lo and Behold!",
+          "length_seconds": 168
+        },
+        {
+          "disc": 1,
+          "disc_title": "Disc 1",
+          "position": "8",
+          "title": "Bessie Smith",
+          "length_seconds": 259
+        },
+        {
+          "disc": 1,
+          "disc_title": "Disc 1",
+          "position": "9",
+          "title": "Clothes Line Saga",
+          "length_seconds": 177
+        },
+        {
+          "disc": 1,
+          "disc_title": "Disc 1",
+          "position": "10",
+          "title": "Apple Suckling Tree",
+          "length_seconds": 169
+        },
+        {
+          "disc": 1,
+          "disc_title": "Disc 1",
+          "position": "11",
+          "title": "Please, Mrs. Henry",
+          "length_seconds": 154
+        },
+        {
+          "disc": 1,
+          "disc_title": "Disc 1",
+          "position": "12",
+          "title": "Tears of Rage",
+          "length_seconds": 252
+        },
+        {
+          "disc": 2,
+          "disc_title": "Disc 2",
+          "position": "1",
+          "title": "Too Much of Nothing",
+          "length_seconds": 184
+        },
+        {
+          "disc": 2,
+          "disc_title": "Disc 2",
+          "position": "2",
+          "title": "Yea! Heavy and a Bottle of Bread",
+          "length_seconds": 136
+        },
+        {
+          "disc": 2,
+          "disc_title": "Disc 2",
+          "position": "3",
+          "title": "Ain\u2019t No More Cane",
+          "length_seconds": 238
+        },
+        {
+          "disc": 2,
+          "disc_title": "Disc 2",
+          "position": "4",
+          "title": "Crash on the Levee (Down in the Flood)",
+          "length_seconds": 125
+        },
+        {
+          "disc": 2,
+          "disc_title": "Disc 2",
+          "position": "5",
+          "title": "Ruben Remus",
+          "length_seconds": 196
+        },
+        {
+          "disc": 2,
+          "disc_title": "Disc 2",
+          "position": "6",
+          "title": "Tiny Montgomery",
+          "length_seconds": 167
+        },
+        {
+          "disc": 2,
+          "disc_title": "Disc 2",
+          "position": "7",
+          "title": "You Ain\u2019t Goin\u2019 Nowhere",
+          "length_seconds": 163
+        },
+        {
+          "disc": 2,
+          "disc_title": "Disc 2",
+          "position": "8",
+          "title": "Don\u2019t Ya Tell Henry",
+          "length_seconds": 194
+        },
+        {
+          "disc": 2,
+          "disc_title": "Disc 2",
+          "position": "9",
+          "title": "Nothing Was Delivered",
+          "length_seconds": 264
+        },
+        {
+          "disc": 2,
+          "disc_title": "Disc 2",
+          "position": "10",
+          "title": "Open the Door, Homer",
+          "length_seconds": 170
+        },
+        {
+          "disc": 2,
+          "disc_title": "Disc 2",
+          "position": "11",
+          "title": "Long Distance Operator",
+          "length_seconds": 220
+        },
+        {
+          "disc": 2,
+          "disc_title": "Disc 2",
+          "position": "12",
+          "title": "This Wheel\u2019s on Fire",
+          "length_seconds": 230
+        }
+      ]
+    },
+    {
+      "album": "Desire",
+      "year": 1976,
+      "release_group_id": "fc325dd3-73ed-36aa-9c77-6b65a958e3cf",
+      "release_id": "0586779a-1e0c-465a-ad7d-5dd1c0946028",
+      "release_title": "Desire",
+      "release_date": "1985",
+      "country": "US",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "Hurricane",
+          "length_seconds": 512
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "Isis",
+          "length_seconds": 419
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "Mozambique",
+          "length_seconds": 181
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "One More Cup of Coffee",
+          "length_seconds": 226
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "Oh, Sister",
+          "length_seconds": 244
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "Joey",
+          "length_seconds": 665
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "Romance in Durango",
+          "length_seconds": 344
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "Black Diamond Bay",
+          "length_seconds": 450
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "9",
+          "title": "Sara",
+          "length_seconds": 330
+        }
+      ]
+    },
+    {
+      "album": "Street-Legal",
+      "year": 1978,
+      "release_group_id": "5883c91a-43ea-34e6-922d-1dc12fd48467",
+      "release_id": "ef87f156-47cf-35fe-984e-a8fb161b22fc",
+      "release_title": "Street\u2010Legal",
+      "release_date": "1999-06-07",
+      "country": "GB",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "Changing of the Guards",
+          "length_seconds": 395
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "New Pony",
+          "length_seconds": 271
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "No Time to Think",
+          "length_seconds": 503
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "Baby Stop Crying",
+          "length_seconds": 321
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "Is Your Love in Vain?",
+          "length_seconds": 274
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "Se\u00f1or (Tales of Yankee Power)",
+          "length_seconds": 344
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "True Love Tends to Forget",
+          "length_seconds": 258
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "We Better Talk This Over",
+          "length_seconds": 248
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "9",
+          "title": "Where Are You Tonight? (Journey Through Dark Heat)",
+          "length_seconds": 376
+        }
+      ]
+    },
+    {
+      "album": "Slow Train Coming",
+      "year": 1979,
+      "release_group_id": "84b2989d-4364-3882-9570-30d4a048c487",
+      "release_id": "e89f3288-5f37-43c1-a89b-107b98b72d73",
+      "release_title": "Slow Train Coming",
+      "release_date": "1986",
+      "country": "US",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "Gotta Serve Somebody",
+          "length_seconds": 325
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "Precious Angel",
+          "length_seconds": 390
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "I Believe in You",
+          "length_seconds": 305
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "Slow Train",
+          "length_seconds": 359
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "Gonna Change My Way of Thinking",
+          "length_seconds": 328
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "Do Right to Me Baby (Do Unto Others)",
+          "length_seconds": 233
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "When You Gonna Wake Up",
+          "length_seconds": 328
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "Man Gave Names to All the Animals",
+          "length_seconds": 266
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "9",
+          "title": "When He Returns",
+          "length_seconds": 270
+        }
+      ]
+    },
+    {
+      "album": "Saved",
+      "year": 1980,
+      "release_group_id": "a11f33bf-1573-3b99-bcc6-d0c6e6592bcd",
+      "release_id": "71eed68e-1e1f-3b20-943f-1f495e975b88",
+      "release_title": "Saved",
+      "release_date": "1990-08-28",
+      "country": "US",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "A Satisfied Mind",
+          "length_seconds": 118
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "Saved",
+          "length_seconds": 243
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "Covenant Woman",
+          "length_seconds": 365
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "What Can I Do for You?",
+          "length_seconds": 355
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "Solid Rock",
+          "length_seconds": 238
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "Pressing On",
+          "length_seconds": 314
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "In the Garden",
+          "length_seconds": 360
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "Saving Grace",
+          "length_seconds": 305
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "9",
+          "title": "Are You Ready",
+          "length_seconds": 281
+        }
+      ]
+    },
+    {
+      "album": "Shot of Love",
+      "year": 1981,
+      "release_group_id": "4491344e-1ffd-339d-a2c5-e6a369b4708e",
+      "release_id": "4a265814-80a3-48f8-9a00-c4da7ddeaffc",
+      "release_title": "Shot of Love",
+      "release_date": "2002",
+      "country": "GB",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "Shot of Love",
+          "length_seconds": 262
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "Heart of Mine",
+          "length_seconds": 276
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "Property of Jesus",
+          "length_seconds": 277
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "Lenny Bruce",
+          "length_seconds": 276
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "Watered\u2010Down Love",
+          "length_seconds": 253
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "The Groom\u2019s Still Waiting at the Altar",
+          "length_seconds": 245
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "Dead Man, Dead Man",
+          "length_seconds": 244
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "In the Summertime",
+          "length_seconds": 216
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "9",
+          "title": "Trouble",
+          "length_seconds": 278
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "10",
+          "title": "Every Grain of Sand",
+          "length_seconds": 372
+        }
+      ]
+    },
+    {
+      "album": "Infidels",
+      "year": 1983,
+      "release_group_id": "60f27712-263a-348c-8eda-b5315a67e8c2",
+      "release_id": "ce6f4b4c-34f0-3af9-a4a9-f56fc57fdf4f",
+      "release_title": "Infidels",
+      "release_date": "1989-12-04",
+      "country": "GB",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "Jokerman",
+          "length_seconds": 379
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "Sweetheart Like You",
+          "length_seconds": 276
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "Neighborhood Bully",
+          "length_seconds": 278
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "License to Kill",
+          "length_seconds": 215
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "Man of Peace",
+          "length_seconds": 392
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "Union Sundown",
+          "length_seconds": 326
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "I and I",
+          "length_seconds": 313
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "Don't Fall Apart on Me Tonight",
+          "length_seconds": 356
+        }
+      ]
+    },
+    {
+      "album": "Empire Burlesque",
+      "year": 1985,
+      "release_group_id": "a90b32b2-c84d-35ad-bab3-07e6799cde5b",
+      "release_id": "f51345cf-a5d2-3892-8270-cff764a5a7ac",
+      "release_title": "Empire Burlesque",
+      "release_date": "1985",
+      "country": "US",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "Tight Connection to My Heart (Has Anybody Seen My Love)",
+          "length_seconds": 322
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "Seeing the Real You at Last",
+          "length_seconds": 261
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "I'll Remember You",
+          "length_seconds": 254
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "Clean Cut Kid",
+          "length_seconds": 257
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "Never Gonna Be the Same Again",
+          "length_seconds": 191
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "Trust Yourself",
+          "length_seconds": 208
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "Emotionally Yours",
+          "length_seconds": 270
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "When the Night Comes Falling From the Sky",
+          "length_seconds": 450
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "9",
+          "title": "Something's Burning, Baby",
+          "length_seconds": 294
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "10",
+          "title": "Dark Eyes",
+          "length_seconds": 309
+        }
+      ]
+    },
+    {
+      "album": "Knocked Out Loaded",
+      "year": 1986,
+      "release_group_id": "423bf65a-6e28-3a14-8ea7-08912eb15e29",
+      "release_id": "3bc7d60b-0373-382e-bd7d-c76518d1b521",
+      "release_title": "Knocked Out Loaded",
+      "release_date": "1986-08",
+      "country": "US",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "You Wanna Ramble",
+          "length_seconds": 197
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "They Killed Him",
+          "length_seconds": 244
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "Driftin\u2019 Too Far From Shore",
+          "length_seconds": 222
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "Precious Memories",
+          "length_seconds": 195
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "Maybe Someday",
+          "length_seconds": 200
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "Brownsville Girl",
+          "length_seconds": 663
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "Got My Mind Made Up",
+          "length_seconds": 175
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "Under Your Spell",
+          "length_seconds": 237
+        }
+      ]
+    },
+    {
+      "album": "Down in the Groove",
+      "year": 1988,
+      "release_group_id": "ce8a72cf-10c7-3dea-b9e7-3dd260a9ed5c",
+      "release_id": "bb57734a-894d-3f9b-9503-fbbca8c35b3e",
+      "release_title": "Down in the Groove",
+      "release_date": "1988-06",
+      "country": "US",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "Let\u2019s Stick Together",
+          "length_seconds": 189
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "When Did You Leave Heaven?",
+          "length_seconds": 135
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "Sally Sue Brown",
+          "length_seconds": 149
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "Death Is Not the End",
+          "length_seconds": 310
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "Had a Dream About You, Baby",
+          "length_seconds": 174
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "Ugliest Girl in the World",
+          "length_seconds": 212
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "Silvio",
+          "length_seconds": 186
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "Ninety Miles an Hour (Down a Dead End Street)",
+          "length_seconds": 176
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "9",
+          "title": "Shenandoah",
+          "length_seconds": 219
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "10",
+          "title": "Rank Strangers to Me",
+          "length_seconds": 177
+        }
+      ]
+    },
+    {
+      "album": "Oh Mercy",
+      "year": 1989,
+      "release_group_id": "36675813-6c3c-33fa-8eaf-b1cd66d4f006",
+      "release_id": "b5b1ef1c-c2cd-4573-962d-f81bdd8a9835",
+      "release_title": "Oh Mercy",
+      "release_date": "1989-09-12",
+      "country": "US",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "Political World",
+          "length_seconds": 227
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "Where Teardrops Fall",
+          "length_seconds": 153
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "Everything Is Broken",
+          "length_seconds": 195
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "Ring Them Bells",
+          "length_seconds": 180
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "Man in the Long Black Coat",
+          "length_seconds": 274
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "Most of the Time",
+          "length_seconds": 303
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "What Good Am I?",
+          "length_seconds": 285
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "Disease of Conceit",
+          "length_seconds": 224
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "9",
+          "title": "What Was It You Wanted",
+          "length_seconds": 303
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "10",
+          "title": "Shooting Star",
+          "length_seconds": 195
+        }
+      ]
+    },
+    {
+      "album": "Under the Red Sky",
+      "year": 1990,
+      "release_group_id": "8d231aa3-4a4e-306a-a3f9-4421e846bb1a",
+      "release_id": "c12d36f0-1e2e-4d4d-aeb5-b456a73a1cb5",
+      "release_title": "Under the Red Sky",
+      "release_date": "1990-09-11",
+      "country": "US",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "Wiggle Wiggle",
+          "length_seconds": 130
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "Under the Red Sky",
+          "length_seconds": 249
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "Unbelievable",
+          "length_seconds": 247
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "Born in Time",
+          "length_seconds": 219
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "T.V. Talkin\u2019 Song",
+          "length_seconds": 183
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "10,000 Men",
+          "length_seconds": 262
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "2 X 2",
+          "length_seconds": 216
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "God Knows",
+          "length_seconds": 183
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "9",
+          "title": "Handy Dandy",
+          "length_seconds": 243
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "10",
+          "title": "Cat\u2019s in the Well",
+          "length_seconds": 201
+        }
+      ]
+    },
+    {
+      "album": "Good as I Been to You",
+      "year": 1992,
+      "release_group_id": "43f420f8-44ca-3ff2-92c2-c6f285cb163b",
+      "release_id": "318db5a5-beb2-4ace-bacb-e826505aa389",
+      "release_title": "Good As I Been to You",
+      "release_date": "1992-11-03",
+      "country": "US",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "Frankie & Albert",
+          "length_seconds": 230
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "Jim Jones",
+          "length_seconds": 235
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "Blackjack Davey",
+          "length_seconds": 350
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "Canadee\u2010i\u2010o",
+          "length_seconds": 263
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "Sittin\u2019 on Top of the World",
+          "length_seconds": 271
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "Little Maggie",
+          "length_seconds": 175
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "Hard Times",
+          "length_seconds": 274
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "Step It Up and Go",
+          "length_seconds": 178
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "9",
+          "title": "Tomorrow Night",
+          "length_seconds": 223
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "10",
+          "title": "Arthur McBride",
+          "length_seconds": 382
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "11",
+          "title": "You\u2019re Gonna Quit Me",
+          "length_seconds": 168
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "12",
+          "title": "Diamond Joe",
+          "length_seconds": 197
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "13",
+          "title": "Froggie Went a Courtin\u2019",
+          "length_seconds": 384
+        }
+      ]
+    },
+    {
+      "album": "World Gone Wrong",
+      "year": 1993,
+      "release_group_id": "fb0d0547-c8ec-3300-8f70-6f45361578f3",
+      "release_id": "22119eed-b5f1-4f54-81e5-71066c2ae452",
+      "release_title": "World Gone Wrong",
+      "release_date": "1993-10-26",
+      "country": "US",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "World Gone Wrong",
+          "length_seconds": 238
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "Love Henry",
+          "length_seconds": 264
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "Ragged & Dirty",
+          "length_seconds": 249
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "Blood in My Eyes",
+          "length_seconds": 305
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "Broke Down Engine",
+          "length_seconds": 203
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "Delia",
+          "length_seconds": 342
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "Stack a Lee",
+          "length_seconds": 231
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "Two Soldiers",
+          "length_seconds": 345
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "9",
+          "title": "Jack\u2010A\u2010Roe",
+          "length_seconds": 296
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "10",
+          "title": "Lone Pilgrim",
+          "length_seconds": 163
+        }
+      ]
+    },
+    {
+      "album": "Time Out of Mind",
+      "year": 1997,
+      "release_group_id": "dad1dada-1fda-3186-beb7-3bc80e90f9e0",
+      "release_id": "932d4426-8dca-4bf6-a0da-01e28a18b278",
+      "release_title": "Time Out of Mind",
+      "release_date": "1997-09-30",
+      "country": "US",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "Love Sick",
+          "length_seconds": 322
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "Dirt Road Blues",
+          "length_seconds": 216
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "Standing in the Doorway",
+          "length_seconds": 463
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "Million Miles",
+          "length_seconds": 353
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "Tryin\u2019 to Get to Heaven",
+          "length_seconds": 322
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "\u2019til I Fell in Love With You",
+          "length_seconds": 318
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "Not Dark Yet",
+          "length_seconds": 389
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "Cold Irons Bound",
+          "length_seconds": 436
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "9",
+          "title": "Make You Feel My Love",
+          "length_seconds": 213
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "10",
+          "title": "Can\u2019t Wait",
+          "length_seconds": 347
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "11",
+          "title": "Highlands",
+          "length_seconds": 992
+        }
+      ]
+    },
+    {
+      "album": "\"Love and Theft\"",
+      "year": 2001,
+      "release_group_id": "9980ffe5-c5b5-3a83-8c1e-1ec6618f97ca",
+      "release_id": "179779c4-1c5e-3e22-aabe-a6d87a1314c2",
+      "release_title": "\"Love and Theft\"",
+      "release_date": "2004-03-29",
+      "country": "GB",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "Tweedle Dee & Tweedle Dum",
+          "length_seconds": 286
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "Mississippi",
+          "length_seconds": 321
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "Summer Days",
+          "length_seconds": 293
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "Bye and Bye",
+          "length_seconds": 196
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "Lonesome Day Blues",
+          "length_seconds": 365
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "Floater (Too Much to Ask)",
+          "length_seconds": 300
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "High Water (For Charley Patton)",
+          "length_seconds": 245
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "Moonlight",
+          "length_seconds": 203
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "9",
+          "title": "Honest With Me",
+          "length_seconds": 349
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "10",
+          "title": "Po' Boy",
+          "length_seconds": 186
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "11",
+          "title": "Cry a While",
+          "length_seconds": 305
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "12",
+          "title": "Sugar Baby",
+          "length_seconds": 401
+        }
+      ]
+    },
+    {
+      "album": "Modern Times",
+      "year": 2006,
+      "release_group_id": "d300b74b-02b4-33e3-998e-e4405e8e6580",
+      "release_id": "5153eda7-3466-4aa5-99d4-6cf62b124845",
+      "release_title": "Modern Times",
+      "release_date": "2006-08-29",
+      "country": null,
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "Thunder on the Mountain",
+          "length_seconds": 354
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "Spirit on the Water",
+          "length_seconds": 461
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "Rollin\u2019 and Tumblin\u2019",
+          "length_seconds": 362
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "When the Deal Goes Down",
+          "length_seconds": 304
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "Someday Baby",
+          "length_seconds": 296
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "Workingman\u2019s Blues #2",
+          "length_seconds": 367
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "Beyond the Horizon",
+          "length_seconds": 335
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "Nettie Moore",
+          "length_seconds": 413
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "9",
+          "title": "The Levee\u2019s Gonna Break",
+          "length_seconds": 343
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "10",
+          "title": "Ain\u2019t Talkin\u2019",
+          "length_seconds": 528
+        }
+      ]
+    },
+    {
+      "album": "Together Through Life",
+      "year": 2009,
+      "release_group_id": "2202f7cc-6ce1-3aea-85b0-163347528402",
+      "release_id": "ad9ec140-c5d0-4330-8f0f-5f3a6a34a57f",
+      "release_title": "Together Through Life",
+      "release_date": "2009-04-28",
+      "country": "US",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "Beyond Here Lies Nothin'",
+          "length_seconds": 230
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "Life Is Hard",
+          "length_seconds": 219
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "My Wife's Home Town",
+          "length_seconds": 255
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "If You Ever Go to Houston",
+          "length_seconds": 349
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "Forgetful Heart",
+          "length_seconds": 222
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "Jolene",
+          "length_seconds": 231
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "This Dream of You",
+          "length_seconds": 354
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "Shake Shake Mama",
+          "length_seconds": 217
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "9",
+          "title": "I Feel a Change Comin' On",
+          "length_seconds": 325
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "10",
+          "title": "It's All Good",
+          "length_seconds": 328
+        }
+      ]
+    },
+    {
+      "album": "Christmas in the Heart",
+      "year": 2009,
+      "release_group_id": "16d64d01-6d92-40b2-86ba-7f76c018ab9c",
+      "release_id": "679445b4-b608-48bb-905f-3721453f8ad7",
+      "release_title": "Christmas in the Heart",
+      "release_date": "2009-11-23",
+      "country": "US",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "Here Comes Santa Claus",
+          "length_seconds": 155
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "Do You Hear What I Hear?",
+          "length_seconds": 182
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "Winter Wonderland",
+          "length_seconds": 112
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "Hark the Herald Angels Sing",
+          "length_seconds": 150
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "I'll Be Home for Christmas",
+          "length_seconds": 174
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "Little Drummer Boy",
+          "length_seconds": 172
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "The Christmas Blues",
+          "length_seconds": 174
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "O' Come All Ye Faithful (Adeste Fideles)",
+          "length_seconds": 168
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "9",
+          "title": "Have Yourself a Merry Little Christmas",
+          "length_seconds": 246
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "10",
+          "title": "Must Be Santa",
+          "length_seconds": 168
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "11",
+          "title": "Silver Bells",
+          "length_seconds": 155
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "12",
+          "title": "The First Noel",
+          "length_seconds": 150
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "13",
+          "title": "Christmas Island",
+          "length_seconds": 147
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "14",
+          "title": "The Christmas Song",
+          "length_seconds": 236
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "15",
+          "title": "O' Little Town of Bethlehem",
+          "length_seconds": 137
+        }
+      ]
+    },
+    {
+      "album": "Tempest",
+      "year": 2012,
+      "release_group_id": "42555dd2-d671-4c96-85c3-3939232ffc4b",
+      "release_id": "ffed0505-a399-4f1a-987b-d232e269405d",
+      "release_title": "Tempest",
+      "release_date": "2012-09-11",
+      "country": "US",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "Duquesne Whistle",
+          "length_seconds": 344
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "Soon After Midnight",
+          "length_seconds": 208
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "Narrow Way",
+          "length_seconds": 448
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "Long and Wasted Years",
+          "length_seconds": 227
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "Pay in Blood",
+          "length_seconds": 310
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "Scarlet Town",
+          "length_seconds": 437
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "Early Roman Kings",
+          "length_seconds": 314
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "Tin Angel",
+          "length_seconds": 545
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "9",
+          "title": "Tempest",
+          "length_seconds": 835
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "10",
+          "title": "Roll On John",
+          "length_seconds": 446
+        }
+      ]
+    },
+    {
+      "album": "Shadows in the Night",
+      "year": 2015,
+      "release_group_id": "5e3e123f-0746-49fa-ac3a-1acf0dc254a0",
+      "release_id": "ea506138-686a-4acf-855d-625756099292",
+      "release_title": "Shadows in the Night",
+      "release_date": "2015-02-03",
+      "country": "US",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "I'm a Fool to Want You",
+          "length_seconds": 291
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "The Night We Called It a Day",
+          "length_seconds": 205
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "Stay With Me",
+          "length_seconds": 176
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "Autumn Leaves",
+          "length_seconds": 182
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "Why Try to Change Me Now",
+          "length_seconds": 218
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "Some Enchanted Evening",
+          "length_seconds": 208
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "Full Moon and Empty Arms",
+          "length_seconds": 206
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "Where Are You?",
+          "length_seconds": 217
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "9",
+          "title": "What'll I Do",
+          "length_seconds": 201
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "10",
+          "title": "That Lucky Old Sun",
+          "length_seconds": 219
+        }
+      ]
+    },
+    {
+      "album": "Fallen Angels",
+      "year": 2016,
+      "release_group_id": "3e9553c6-786a-4f85-8a2a-1b70cd166742",
+      "release_id": "536c98a9-ccf1-431a-abbc-eeb3a3aaf4de",
+      "release_title": "Fallen Angels",
+      "release_date": "2016-05-20",
+      "country": "US",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "Young at Heart",
+          "length_seconds": 179
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "Maybe You'll Be There",
+          "length_seconds": 176
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "Polka Dots and Moonbeams",
+          "length_seconds": 215
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "All the Way",
+          "length_seconds": 241
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "Skylark",
+          "length_seconds": 176
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "Nevertheless",
+          "length_seconds": 207
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "All or Nothing at All",
+          "length_seconds": 184
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "On a Little Street in Singapore",
+          "length_seconds": 136
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "9",
+          "title": "It Had to Be You",
+          "length_seconds": 242
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "10",
+          "title": "Melancholy Mood",
+          "length_seconds": 173
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "11",
+          "title": "That Old Black Magic",
+          "length_seconds": 182
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "12",
+          "title": "Come Rain or Come Shine",
+          "length_seconds": 159
+        }
+      ]
+    },
+    {
+      "album": "Triplicate",
+      "year": 2017,
+      "release_group_id": "f490ca6a-ff96-4132-b235-71640f51d9d0",
+      "release_id": "97fcf2d2-4442-46ee-8437-36d252e5f64d",
+      "release_title": "Triplicate",
+      "release_date": "2017-03-31",
+      "country": "US",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": "\u2019til the Sun Goes Down",
+          "position": "1",
+          "title": "I Guess I\u2019ll Have to Change My Plans",
+          "length_seconds": 147
+        },
+        {
+          "disc": 1,
+          "disc_title": "\u2019til the Sun Goes Down",
+          "position": "2",
+          "title": "September of My Years",
+          "length_seconds": 206
+        },
+        {
+          "disc": 1,
+          "disc_title": "\u2019til the Sun Goes Down",
+          "position": "3",
+          "title": "I Could Have Told You",
+          "length_seconds": 220
+        },
+        {
+          "disc": 1,
+          "disc_title": "\u2019til the Sun Goes Down",
+          "position": "4",
+          "title": "Once Upon a Time",
+          "length_seconds": 218
+        },
+        {
+          "disc": 1,
+          "disc_title": "\u2019til the Sun Goes Down",
+          "position": "5",
+          "title": "Stormy Weather",
+          "length_seconds": 186
+        },
+        {
+          "disc": 1,
+          "disc_title": "\u2019til the Sun Goes Down",
+          "position": "6",
+          "title": "This Nearly Was Mine",
+          "length_seconds": 169
+        },
+        {
+          "disc": 1,
+          "disc_title": "\u2019til the Sun Goes Down",
+          "position": "7",
+          "title": "That Old Feeling",
+          "length_seconds": 219
+        },
+        {
+          "disc": 1,
+          "disc_title": "\u2019til the Sun Goes Down",
+          "position": "8",
+          "title": "It Gets Lonely Early",
+          "length_seconds": 190
+        },
+        {
+          "disc": 1,
+          "disc_title": "\u2019til the Sun Goes Down",
+          "position": "9",
+          "title": "My One and Only Love",
+          "length_seconds": 204
+        },
+        {
+          "disc": 1,
+          "disc_title": "\u2019til the Sun Goes Down",
+          "position": "10",
+          "title": "Trade Winds",
+          "length_seconds": 161
+        },
+        {
+          "disc": 2,
+          "disc_title": "Devil Dolls",
+          "position": "1",
+          "title": "Braggin\u2019",
+          "length_seconds": 165
+        },
+        {
+          "disc": 2,
+          "disc_title": "Devil Dolls",
+          "position": "2",
+          "title": "As Time Goes By",
+          "length_seconds": 202
+        },
+        {
+          "disc": 2,
+          "disc_title": "Devil Dolls",
+          "position": "3",
+          "title": "Imagination",
+          "length_seconds": 155
+        },
+        {
+          "disc": 2,
+          "disc_title": "Devil Dolls",
+          "position": "4",
+          "title": "How Deep Is the Ocean",
+          "length_seconds": 203
+        },
+        {
+          "disc": 2,
+          "disc_title": "Devil Dolls",
+          "position": "5",
+          "title": "P.S. I Love You",
+          "length_seconds": 258
+        },
+        {
+          "disc": 2,
+          "disc_title": "Devil Dolls",
+          "position": "6",
+          "title": "The Best Is Yet to Come",
+          "length_seconds": 177
+        },
+        {
+          "disc": 2,
+          "disc_title": "Devil Dolls",
+          "position": "7",
+          "title": "But Beautiful",
+          "length_seconds": 202
+        },
+        {
+          "disc": 2,
+          "disc_title": "Devil Dolls",
+          "position": "8",
+          "title": "Here\u2019s That Rainy Day",
+          "length_seconds": 207
+        },
+        {
+          "disc": 2,
+          "disc_title": "Devil Dolls",
+          "position": "9",
+          "title": "Where Is the One",
+          "length_seconds": 195
+        },
+        {
+          "disc": 2,
+          "disc_title": "Devil Dolls",
+          "position": "10",
+          "title": "There\u2019s a Flaw in My Flue",
+          "length_seconds": 167
+        },
+        {
+          "disc": 3,
+          "disc_title": "Comin\u2019 Home Late",
+          "position": "1",
+          "title": "Day In, Day Out",
+          "length_seconds": 182
+        },
+        {
+          "disc": 3,
+          "disc_title": "Comin\u2019 Home Late",
+          "position": "2",
+          "title": "I Couldn\u2019t Sleep a Wink Last Night",
+          "length_seconds": 196
+        },
+        {
+          "disc": 3,
+          "disc_title": "Comin\u2019 Home Late",
+          "position": "3",
+          "title": "Sentimental Journey",
+          "length_seconds": 192
+        },
+        {
+          "disc": 3,
+          "disc_title": "Comin\u2019 Home Late",
+          "position": "4",
+          "title": "Somewhere Along the Way",
+          "length_seconds": 199
+        },
+        {
+          "disc": 3,
+          "disc_title": "Comin\u2019 Home Late",
+          "position": "5",
+          "title": "When the World Was Young",
+          "length_seconds": 227
+        },
+        {
+          "disc": 3,
+          "disc_title": "Comin\u2019 Home Late",
+          "position": "6",
+          "title": "These Foolish Things",
+          "length_seconds": 251
+        },
+        {
+          "disc": 3,
+          "disc_title": "Comin\u2019 Home Late",
+          "position": "7",
+          "title": "You Go to My Head",
+          "length_seconds": 187
+        },
+        {
+          "disc": 3,
+          "disc_title": "Comin\u2019 Home Late",
+          "position": "8",
+          "title": "Stardust",
+          "length_seconds": 155
+        },
+        {
+          "disc": 3,
+          "disc_title": "Comin\u2019 Home Late",
+          "position": "9",
+          "title": "It\u2019s Funny to Everyone but Me",
+          "length_seconds": 159
+        },
+        {
+          "disc": 3,
+          "disc_title": "Comin\u2019 Home Late",
+          "position": "10",
+          "title": "Why Was I Born",
+          "length_seconds": 170
+        }
+      ]
+    },
+    {
+      "album": "Rough and Rowdy Ways",
+      "year": 2020,
+      "release_group_id": "43b12592-d808-44de-a5df-ebd7c6b2b75c",
+      "release_id": "2d274b79-ca34-4a99-9447-b1e57fc27338",
+      "release_title": "Rough and Rowdy Ways",
+      "release_date": "2020-06-19",
+      "country": "US",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": "Disc 1",
+          "position": "1",
+          "title": "I Contain Multitudes",
+          "length_seconds": 277
+        },
+        {
+          "disc": 1,
+          "disc_title": "Disc 1",
+          "position": "2",
+          "title": "False Prophet",
+          "length_seconds": 360
+        },
+        {
+          "disc": 1,
+          "disc_title": "Disc 1",
+          "position": "3",
+          "title": "My Own Version of You",
+          "length_seconds": 401
+        },
+        {
+          "disc": 1,
+          "disc_title": "Disc 1",
+          "position": "4",
+          "title": "I\u2019ve Made Up My Mind to Give Myself to You",
+          "length_seconds": 392
+        },
+        {
+          "disc": 1,
+          "disc_title": "Disc 1",
+          "position": "5",
+          "title": "Black Rider",
+          "length_seconds": 253
+        },
+        {
+          "disc": 1,
+          "disc_title": "Disc 1",
+          "position": "6",
+          "title": "Goodbye Jimmy Reed",
+          "length_seconds": 254
+        },
+        {
+          "disc": 1,
+          "disc_title": "Disc 1",
+          "position": "7",
+          "title": "Mother of Muses",
+          "length_seconds": 269
+        },
+        {
+          "disc": 1,
+          "disc_title": "Disc 1",
+          "position": "8",
+          "title": "Crossing the Rubicon",
+          "length_seconds": 443
+        },
+        {
+          "disc": 1,
+          "disc_title": "Disc 1",
+          "position": "9",
+          "title": "Key West (Philosopher Pirate)",
+          "length_seconds": 574
+        },
+        {
+          "disc": 2,
+          "disc_title": "Disc 2",
+          "position": "1",
+          "title": "Murder Most Foul",
+          "length_seconds": 1015
+        }
+      ]
+    },
+    {
+      "album": "Shadow Kingdom",
+      "year": 2023,
+      "release_group_id": "6b074aba-bbfb-42be-8079-b434d5d9712f",
+      "release_id": "5a7ab401-6d2d-4750-8c57-bb7237c4a291",
+      "release_title": "Shadow Kingdom",
+      "release_date": "2023-06-02",
+      "country": "US",
+      "tracks": [
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "1",
+          "title": "When I Paint My Masterpiece",
+          "length_seconds": 266
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "2",
+          "title": "Most Likely You Go Your Way (and I\u2019ll Go Mine)",
+          "length_seconds": 213
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "3",
+          "title": "Queen Jane Approximately",
+          "length_seconds": 315
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "4",
+          "title": "I\u2019ll Be Your Baby Tonight",
+          "length_seconds": 184
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "5",
+          "title": "Just Like Tom Thumb\u2019s Blues",
+          "length_seconds": 266
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "6",
+          "title": "Tombstone Blues",
+          "length_seconds": 300
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "7",
+          "title": "To Be Alone With You",
+          "length_seconds": 190
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "8",
+          "title": "What Was It You Wanted",
+          "length_seconds": 304
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "9",
+          "title": "Forever Young",
+          "length_seconds": 195
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "10",
+          "title": "Pledging My Time",
+          "length_seconds": 231
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "11",
+          "title": "The Wicked Messenger",
+          "length_seconds": 176
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "12",
+          "title": "Watching the River Flow",
+          "length_seconds": 180
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "13",
+          "title": "It\u2019s All Over Now, Baby Blue",
+          "length_seconds": 170
+        },
+        {
+          "disc": 1,
+          "disc_title": null,
+          "position": "14",
+          "title": "Sierra\u2019s Theme",
+          "length_seconds": 264
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
