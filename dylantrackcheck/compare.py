@@ -10,7 +10,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from dylantrackcheck.catalog import ExpectedAlbum, load_catalog
-from dylantrackcheck.names import album_key, track_key
+from dylantrackcheck.names import album_key, is_title_prefix, keys_match, track_key
 from dylantrackcheck.scan import LiveAlbum, find_dylan_root, scan_live_albums
 
 
@@ -116,17 +116,15 @@ def _compare_album(live: LiveAlbum, expected: ExpectedAlbum) -> AlbumResult:
     expected_keys = [track_key(track.title) for track in expected.tracks]
     live_keys = [track_key(track.filename) for track in live.tracks]
 
-    expected_remaining = list(enumerate(expected_keys))
     live_remaining = list(enumerate(live_keys))
     matched = 0
-    issues: list[TrackIssue] = []
 
-    # Greedy one-to-one match on normalized titles.
+    # Pass 1: exact key, or one title is the other plus a trailing word (now).
     still_expected: list[tuple[int, str]] = []
-    for exp_i, exp_key in expected_remaining:
+    for exp_i, exp_key in enumerate(expected_keys):
         found_at = None
         for live_pos, (live_i, live_key) in enumerate(live_remaining):
-            if live_key == exp_key:
+            if keys_match(exp_key, live_key):
                 found_at = live_pos
                 break
         if found_at is None:
@@ -135,6 +133,15 @@ def _compare_album(live: LiveAlbum, expected: ExpectedAlbum) -> AlbumResult:
             live_remaining.pop(found_at)
             matched += 1
 
+    # Pass 2 (same album only): whole-word prefix when exactly one live file
+    # on this album could match that expected track (and that file is not a
+    # prefix candidate for any other remaining expected track).
+    still_expected, live_remaining, prefix_hits = _unique_prefix_matches(
+        still_expected, live_remaining
+    )
+    matched += prefix_hits
+
+    issues: list[TrackIssue] = []
     for exp_i, _exp_key in still_expected:
         track = expected.tracks[exp_i]
         issues.append(
@@ -173,3 +180,52 @@ def _compare_album(live: LiveAlbum, expected: ExpectedAlbum) -> AlbumResult:
         matched_count=matched,
         issues=tuple(issues),
     )
+
+
+def _unique_prefix_matches(
+    still_expected: list[tuple[int, str]],
+    live_remaining: list[tuple[int, str]],
+) -> tuple[list[tuple[int, str]], list[tuple[int, str]], int]:
+    """Match when one cleaned title prefixes the other and the pair is unique."""
+
+    if not still_expected or not live_remaining:
+        return still_expected, live_remaining, 0
+
+    # expected_index -> list of positions in live_remaining
+    candidates: dict[int, list[int]] = {}
+    for exp_pos, (_exp_i, exp_key) in enumerate(still_expected):
+        hits = [
+            live_pos
+            for live_pos, (_live_i, live_key) in enumerate(live_remaining)
+            if is_title_prefix(exp_key, live_key)
+        ]
+        if hits:
+            candidates[exp_pos] = hits
+
+    # live_remaining position -> expected positions that list it
+    claimed_by: dict[int, list[int]] = {}
+    for exp_pos, live_positions in candidates.items():
+        for live_pos in live_positions:
+            claimed_by.setdefault(live_pos, []).append(exp_pos)
+
+    matched_exp: set[int] = set()
+    matched_live: set[int] = set()
+    for exp_pos, live_positions in candidates.items():
+        if len(live_positions) != 1:
+            continue
+        live_pos = live_positions[0]
+        if len(claimed_by.get(live_pos, ())) != 1:
+            continue
+        matched_exp.add(exp_pos)
+        matched_live.add(live_pos)
+
+    if not matched_exp:
+        return still_expected, live_remaining, 0
+
+    new_expected = [
+        item for pos, item in enumerate(still_expected) if pos not in matched_exp
+    ]
+    new_live = [
+        item for pos, item in enumerate(live_remaining) if pos not in matched_live
+    ]
+    return new_expected, new_live, len(matched_exp)

@@ -10,7 +10,13 @@ from openpyxl import load_workbook
 
 from dylantrackcheck.catalog import load_catalog
 from dylantrackcheck.compare import check_live_albums
-from dylantrackcheck.names import album_key, parse_album_folder, track_key
+from dylantrackcheck.names import (
+    album_key,
+    is_title_prefix,
+    keys_match,
+    parse_album_folder,
+    track_key,
+)
 from dylantrackcheck.sheet import write_xlsx
 
 
@@ -111,6 +117,31 @@ class NameTests(unittest.TestCase):
             "girl from the north country",
         )
 
+    def test_keys_match_trailing_now(self) -> None:
+        self.assertTrue(
+            keys_match(
+                track_key("You're a Big Girl"),
+                track_key("You're a Big Girl Now"),
+            )
+        )
+        self.assertTrue(
+            keys_match(track_key("Oh Sister"), track_key("Oh Sister Now.m4a"))
+        )
+        self.assertFalse(
+            keys_match(track_key("Shelter"), track_key("Shelter From the Storm"))
+        )
+
+    def test_is_title_prefix_whole_word(self) -> None:
+        self.assertTrue(
+            is_title_prefix(
+                track_key("Girl From the North Country"),
+                track_key("Girl From the North Country Live"),
+            )
+        )
+        self.assertFalse(
+            is_title_prefix(track_key("It"), track_key("Idiot Wind"))
+        )
+
 
 class CheckTests(unittest.TestCase):
     def test_catalog_loads_forty_studio_albums(self) -> None:
@@ -199,6 +230,77 @@ class CheckTests(unittest.TestCase):
             )
             self.assertEqual(book["Summary"]["I2"].value, "Mismatch")
             self.assertGreaterEqual(book["Problems"].max_row, 2)
+
+    def test_trailing_now_matches_without_renaming_m4a(self) -> None:
+        with TemporaryDirectory() as tmp:
+            dylan = Path(tmp) / "Bob Dylan"
+            album = dylan / "1975 - Blood on the Tracks"
+            for name in (
+                "01 Tangled Up in Blue.m4a",
+                "02 Simple Twist of Fate.m4a",
+                "03 You're a Big Girl.m4a",  # catalog has "... Now"
+                "04 Idiot Wind.m4a",
+                "05 You're Gonna Make Me Lonesome When You Go.m4a",
+                "06 Meet Me in the Morning.m4a",
+                "07 Lily, Rosemary and the Jack of Hearts.m4a",
+                "08 If You See Her, Say Hello.m4a",
+                "09 Shelter From the Storm.m4a",
+                "10 Buckets of Rain.m4a",
+            ):
+                _touch(album / name)
+            report = check_live_albums(dylan)
+            result = report.results[0]
+            self.assertTrue(result.ok)
+            self.assertEqual(result.matched_count, 10)
+            # File on disk is unchanged (matching only).
+            self.assertTrue((album / "03 You're a Big Girl.m4a").is_file())
+
+    def test_unique_prefix_on_same_album_matches(self) -> None:
+        with TemporaryDirectory() as tmp:
+            dylan = Path(tmp) / "Bob Dylan"
+            album = dylan / "1969 - Nashville Skyline"
+            for name in (
+                "01 Girl From the North Country Something.m4a",
+                "02 Nashville Skyline Rag.m4a",
+                "03 To Be Alone with You.m4a",
+                "04 I Threw It All Away.m4a",
+                "05 Peggy Day.m4a",
+                "06 Lay Lady Lay.m4a",
+                "07 One More Night.m4a",
+                "08 Tell Me That It Isn't True.m4a",
+                "09 Country Pie.m4a",
+                "10 Tonight I'll Be Staying Here with You.m4a",
+            ):
+                _touch(album / name)
+            report = check_live_albums(dylan)
+            result = report.results[0]
+            self.assertTrue(result.ok)
+            self.assertEqual(result.matched_count, 10)
+
+    def test_ambiguous_prefix_does_not_match(self) -> None:
+        with TemporaryDirectory() as tmp:
+            dylan = Path(tmp) / "Bob Dylan"
+            album = dylan / "1969 - Nashville Skyline"
+            # Two live files both prefix-relate to the same expected title.
+            _touch(album / "Girl From the North Country Live.m4a")
+            _touch(album / "Girl From the North Country Demo.m4a")
+            for name in (
+                "02 Nashville Skyline Rag.m4a",
+                "03 To Be Alone with You.m4a",
+                "04 I Threw It All Away.m4a",
+                "05 Peggy Day.m4a",
+                "06 Lay Lady Lay.m4a",
+                "07 One More Night.m4a",
+                "08 Tell Me That It Isn't True.m4a",
+                "09 Country Pie.m4a",
+                "10 Tonight I'll Be Staying Here with You.m4a",
+            ):
+                _touch(album / name)
+            report = check_live_albums(dylan)
+            result = report.results[0]
+            self.assertFalse(result.ok)
+            self.assertEqual(result.missing_count, 1)
+            self.assertEqual(result.extra_count, 2)
 
 
 if __name__ == "__main__":

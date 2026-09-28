@@ -47,6 +47,8 @@ _ING_EQUIV = {
     "blowin": "blowing",
     "givin": "giving",
 }
+# One cleaned title may be the other plus one of these trailing words.
+_TRAILING_EQUIV_WORDS = frozenset({"now"})
 
 
 def parse_album_folder(name: str) -> tuple[int, str] | None:
@@ -87,6 +89,36 @@ def track_key(name: str) -> str:
     text = song_name(name) if _looks_like_filename(name) else name
     text = _strip_trailing_parentheticals(text)
     return _normalize_ing_words(_match_key(text))
+
+
+def keys_match(left: str, right: str) -> bool:
+    """True when cleaned keys are equal, or one is the other plus ``now``.
+
+    Matching only — does not rename files.
+    """
+
+    if left == right:
+        return True
+    return _trailing_word_equivalent(left, right)
+
+
+def is_title_prefix(left: str, right: str) -> bool:
+    """True when one cleaned title is a whole-word prefix of the other."""
+
+    if not left or not right or left == right:
+        return False
+    shorter, longer = (left, right) if len(left) <= len(right) else (right, left)
+    return longer.startswith(shorter + " ")
+
+
+def _trailing_word_equivalent(left: str, right: str) -> bool:
+    if not left or not right:
+        return False
+    shorter, longer = (left, right) if len(left) <= len(right) else (right, left)
+    if not longer.startswith(shorter + " "):
+        return False
+    extra = longer[len(shorter) + 1 :]
+    return extra in _TRAILING_EQUIV_WORDS and " " not in extra
 
 
 def _strip_trailing_parentheticals(text: str) -> str:
